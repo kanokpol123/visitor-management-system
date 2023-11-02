@@ -1,0 +1,316 @@
+/* Header */
+@import url('https://fonts.cdnfonts.com/css/soria');
+
+.bi {
+    color: black;
+    margin: auto;
+}
+
+.nav-name {
+    color: black;
+    padding-top: 9.5px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Soria', sans-serif;
+}
+
+.v-logo {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Soria', sans-serif;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 24px;
+    color: #11336B;
+}
+
+.v-name {
+    padding: 5px;
+    font-family: 'Soria', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 12px;
+    background: #11336B;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30% !important;
+    margin-top: 2% !important;
+}
+
+.link-logout {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4025AA;
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    margin-right: 10%;
+}
+
+.btn-menu {
+    display: none;
+    border: unset;
+    background-color: #11336B !important;
+    border-radius: 5px;
+    color: white;
+    position:fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-menu2 {
+    /* display: none; */
+    border: unset;
+    background-color: #11336B !important;
+    border-radius: 5px 0px 0px 5px;
+    color: white;
+    padding-right: 3% !important;
+}
+
+.btn-dropdown {
+    border: unset;
+    background-color: #11336B !important;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.sidebar-logout {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar-logout:hover , .sidebar-logout:active{
+    background-color: #11336B;
+    color: white;
+}
+
+.sidebar-header{
+    text-align:left;
+    display: flex;
+    align-items: center;
+    width:60%
+}
+
+.sidebar-nameuser{
+    font-size:16px;
+}
+
+@media(max-width: 768px) {
+    .header-name {
+        display: none;
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+
+}
+
+@media(max-width: 413px) {
+    .v-name {
+        font-size: 16px !important;
+        margin-left: 10%;
+        margin-right: 10% !important;
+    }
+}
+
+/* Header */
+
+
+
+/* Body */
+body {
+    font-family: 'Prompt', sans-serif;
+    font-size: 24px;
+    background: #F9F4F4;
+}
+
+.box {
+    padding-top: 55px;
+}
+
+img {
+    width: 160px;
+}
+
+.head {
+    width: 550px;
+    height: 120px;
+    background: #6384F1;
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 10;
+}
+
+h2 {
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.b-name {
+    font-weight: bold;
+}
+
+.enlarge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 265px;
+    height: 255px;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+    overflow: hidden;
+}
+
+.enlarge h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.enlarge h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.plus-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.bi-icon {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#arrow {
+    transform: rotate(-90deg);
+}
+
+.g-input {
+    display: none !important;
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.g-output {
+    display: none !important;
+    display: flex;
+    justify-content: center;
+    margin-right: 50%;
+}
+
+@media (max-width: 1200px) {
+    /* .enlarge h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .enlarge h2 {
+            font-size: 13px;
+        }
+
+        .plus-icon {
+            width: 20px;
+            height: 20px;
+        } */
+}
+
+@media (max-width: 576px) {
+
+    .box {
+        padding-top: 5px;
+    }
+
+    .head {
+        width: 350px;
+        height: 80px;
+        background: #6384F1;
+        border-radius: 20px;
+        font-size: 24px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #r-bt {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .m-guard {
+        display: none;
+    }
+}
+
+.enlarge:hover {
+    background-color: rgb(63, 140, 254);
+    border: none;
+    color: white;
+}
+
+.enlarge:hover .bi-icon {
+    display: none;
+}
+
+.enlarge:hover .g-input {
+    display: block !important;
+    display: flex;
+    justify-content: center;
+    margin-right: 50%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.enlarge:hover .g-output {
+    display: block !important;
+    display: flex;
+    justify-content: center;
+    margin-right: 50%;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.enlarge:active {
+    background-color: rgb(63, 140, 254) !important;
+    border: none;
+    color: white;
+}
+
+img {
+    width: 108px;
+    margin: -29.5px -10px 2px 50px;
+}
+
+
+
+/* Body */
